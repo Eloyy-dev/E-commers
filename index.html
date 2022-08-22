@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>TiendaMates.ar</title>
+</head>
+
+<body>
+  <!-- NAV -->
+  <header class="header">
+    <nav class="nav-bar">
+      <div class="primer-cont">
+        <a href="">TIENDA</a>
+        <ul class="lista-nav">
+          <li>Home</li>
+          <li>Productos</li>
+        </ul>
+      </div>
+      <div class="segundo-cont">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart" width="32"
+          height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#597e8d" fill="none" stroke-linecap="round"
+          stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <circle cx="6" cy="19" r="2" />
+          <circle cx="17" cy="19" r="2" />
+          <path d="M17 17h-11v-14h-2" />
+          <path d="M6 5l14 1l-1 7h-13" />
+        </svg>
+        <span class="cant-carrito">0</span>
+      </div>
+    </nav>
+  </header>
+  <!-- CARRITO -->
+  <div class="popup-carrito">
+    <div class="Cerrar-carrito">X</div>
+    <h2>Mi carrito</h2>
+    <div class="contenedor-cartas-Grid contenedor">
+    </div>
+
+    <div class="precio-compra">
+      <span>0 items</span>
+      <span>$0.00</span>
+    </div>
+    <div class="Compra">
+      <div class="btn-compra"> Comprar</div>
+    </div>
+
+  </div>
+  <!-- HOME -->
+  <section class="home">
+    <div class="Menu-grid">
+      <div class="Menu-Info">
+        <h2>Mate de calabaza</h2>
+        <p>Lorem ipsum dolor sit amet consec qui maxime! Non nesciunt eveniet, natus dolorum hic quas nisi!</p>
+        <span class="precio-menu">$100.00</span>
+        <div class="contenedor-menu">
+          <a href="">Mas Info</a>
+          <div class="btn-menu">Agregar al carrito</div>
+        </div>
+      </div>
+      <div class="Menu-img">
+        <img src="./img/mate-menu.jpg" alt="">
+      </div>
+    </div>
+  </section>
+  <!-- PRODUCTOS -->
+  <section class="productos">
+    <ul class="grid-list">
+      <li>
+        <h3>Mate Calabaza</h3>
+        <p>1 producto</p>
+      </li>
+      <li>
+        <h3>Mate Camionero</h3>
+        <p>2 productos</p>
+      </li>
+      <li>
+        <h3>Mate De Madera</h3>
+        <p>2 productos</p>
+      </li>
+    </ul>
+    <div class="cartas-grid">
+
+      <article class="carta-producto">
+        <div class="carta-img">
+          <img src="./img/mate-camionero.png" alt="">
+        </div>
+        <div class="info-carta">
+          <div class="flex-info">
+            <p>$50.00</p>
+            <span>Stock: 5</span>
+            <div class="btn-add-carrito">+</div>
+          </div>
+          <p>Mate Camionero</p>
+        </div>
+      </article>
+      <article class="carta-producto">
+        <div class="carta-img"><img src="./img/mate-madera.jpg" alt=""></div>
+        <div class="info-carta">
+          <div class="flex-info">
+            <p>$30.00</p>
+            <span>Stock: 2</span>
+            <div class="btn-add-carrito">+</div>
+          </div>
+          <p>Mate Madera</p>
+        </div>
+      </article>
+      <article class="carta-producto personalizado">
+        <div class="carta-img"><img src="./img/mate-personalizado.jpg" alt=""></div>
+        <div class="info-carta">
+          <div class="flex-info">
+            <p>$70.00</p>
+            <span>Stock: 2</span>
+            <div class="btn-add-carrito">+</div>
+          </div>
+          <p>Mate Personalizado</p>
+        </div>
+      </article>
+    </div>
+  </section>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-grid">
+
+      <div>
+        <h4>Informacion</h4>
+        <ul>
+          <li>Buenos Aires- Argentina</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Sobre nosotros</h4>
+        <ul>
+          <li>Atencion al cliente</li>
+          <li>Soporte</li>
+          <li>Contacto</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Nuestras redes</h4>
+
+        <ul>
+          <div class="iconos-redes">
+
+            <li><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24"
+                height="24" viewBox="0 0 24 24" stroke-width="2" stroke="#597e8d" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <rect x="4" y="4" width="16" height="16" rx="4" />
+                <circle cx="12" cy="12" r="3" />
+                <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+              </svg></li>
+            <li><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24"
+                height="24" viewBox="0 0 24 24" stroke-width="2" stroke="#597e8d" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+              </svg></li>
+            <li><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="24"
+                height="24" viewBox="0 0 24 24" stroke-width="2" stroke="#597e8d" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+              </svg></li>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="./script.js"></script>
+
+</html>
